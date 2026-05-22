@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 模型文件（太大）
+reranker/
+reranker_best_final/
+retriever/
+retriever_v5_mnr_triplet(big)/
+*.zip
+
+# 訓練數據和結果
+HW3_For_student/data/
+HW3_For_student/results/
+HW3_For_student/models/
+HW3_For_student/vector_database/
+reranker_train_lite.jsonl
+*.jsonl
+
+# 系統文件
+.DS_Store
+Thumbs.db
